@@ -1008,7 +1008,7 @@ st.markdown("""
   <div style="font-size:12px; color:#475569;">
     Built by <span style="color:#a5b4fc; font-weight:600;">Doug Chingosho</span>
     &nbsp;·&nbsp; MS Financial Technology Analytics, WashU, Olin Business School
-    &nbsp;·&nbsp; |· Fintech ·|· Analytics ·|· Data Insights ·|
+    &nbsp;&nbsp; |· Fintech ·|· Analytics ·|· Data Insights ·|
   </div>
   <div style="display:flex; gap:10px;">
     <a href="https://www.linkedin.com/in/douglas-chingosho" target="_blank"
