@@ -1,22 +1,13 @@
-# 💳 Credit Risk & Loan Default Prediction Dashboard
+# 💳 Credit Risk & Loan Default Prediction Model
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://doug-credit-risk-default-prediction.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An interactive machine learning dashboard for predicting loan default risk using ensemble methods. Built with Python and Streamlit, it provides real-time probability scores, model interpretability via SHAP values, and risk segmentation across four categories.
 
-🔗 **Live App:** [doug-credit-risk-default-prediction.streamlit.app](https://doug-credit-risk-default-prediction.streamlit.app/)
-
 ---
 
-## 📸 Preview
-
-> Interactive dashboard with real-time predictions, SHAP feature importance charts, ROC curves, and risk segmentation panels.
-
----
-
-## 🎯 Features
+## Features
 
 - **Ensemble Modeling** — XGBoost, Random Forest, and Logistic Regression with weighted voting
 - **Real-Time Predictions** — Instant default probability score for any borrower profile
@@ -28,7 +19,7 @@ An interactive machine learning dashboard for predicting loan default risk using
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 | Metric | Score |
 |--------|-------|
@@ -41,7 +32,7 @@ An interactive machine learning dashboard for predicting loan default risk using
 
 ---
 
-## 🔝 Top Predictive Features
+## Top Predictive Features
 
 | Feature | Importance |
 |---------|-----------|
@@ -55,7 +46,7 @@ An interactive machine learning dashboard for predicting loan default risk using
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -70,7 +61,7 @@ An interactive machine learning dashboard for predicting loan default risk using
 
 ---
 
-## 🚀 Run Locally
+## Run Locally
 
 ### Prerequisites
 - Python 3.11+
@@ -90,33 +81,9 @@ pip install -r requirements.txt
 streamlit run credit_risk.py
 ```
 
-The app will open at `http://localhost:8501`
-
 ---
 
-## 📁 Project Structure
-
-```
-credit-risk-dashboard/
-│
-├── credit_risk.py          # Main Streamlit application
-├── requirements.txt        # Python dependencies
-├── README.md               # Project documentation
-│
-├── data/
-│   └── loan_data.csv       # Lending Club loan dataset
-│
-├── models/
-│   └── trained_models.pkl  # Pre-trained model artifacts
-│
-└── utils/
-    ├── preprocessing.py    # Feature engineering pipeline
-    └── evaluation.py       # Model evaluation utilities
-```
-
----
-
-## 💡 How It Works
+## How It Works
 
 ```python
 # Core prediction pipeline
@@ -145,35 +112,10 @@ lr_model  = LogisticRegression(C=1.0, max_iter=1000)
 
 ---
 
-## 📈 Business Impact
+## Business Impact
 
 - Identifies **79% of defaults** before they occur, reducing bad debt exposure
 - Enables approval of creditworthy borderline applicants who would otherwise be declined
 - Reduces loan processing time from days to **under one minute**
 - SHAP explanations ensure **regulatory compliance** and model transparency
 - Risk tiers allow lenders to price loans appropriately by risk segment
-
----
-
-## 🎓 Academic Context
-
-Built as part of the **MS Financial Technology Analytics** program at Washington University in St. Louis, Olin Business School. Demonstrates applied machine learning in a real-world financial services context, combining statistical rigor with production-ready deployment.
-
----
-
-## 👤 Author
-
-**Douglas Tawanda Chingosho**
-MS Business Analytics — Financial Technology Analytics Track
-Washington University in St. Louis, Olin Business School
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://linkedin.com/in/douglas-tawanda-chingosho)
-[![GitHub](https://img.shields.io/badge/GitHub-doug1192-black)](https://github.com/doug1192)
-[![Portfolio](https://img.shields.io/badge/Portfolio-dougchingosho.com-blue)](https://dougchingosho.com)
-[![Email](https://img.shields.io/badge/Email-douglasc%40wustl.edu-red)](mailto:douglasc@wustl.edu)
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
