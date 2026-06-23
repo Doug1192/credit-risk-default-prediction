@@ -1,7 +1,6 @@
 # 💳 Credit Risk & Loan Default Prediction Model
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 An interactive machine learning dashboard for predicting loan default risk using ensemble methods. Built with Python and Streamlit, it provides real-time probability scores, model interpretability via SHAP values, and risk segmentation across four categories.
 
